@@ -1,0 +1,9 @@
+[Unit]
+Description=Service for WM time check
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/start.sh
+
+[Install]
+WantedBy=multi-user.target
